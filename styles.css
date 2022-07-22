@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Raleway', sans-serif;;
+}
+
+h1 {
+    margin: auto;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgb(223, 102, 102);
+    border-radius: 8px;
+    width: 315px;
+    box-shadow: 2px 2px 2px rgb(223, 102, 102);
+}
+
+span {
+    font-weight: 400;
+}
+
+.link-1 {
+    transition: 0.3s;
+}
+
+.link-1:hover {
+    background-color: rgb(223, 102, 102);
+    padding: 4px;
+    border-radius: 6px;
+    transform: scale(1.02);
+}
+
+.master {
+    transition: 0.2s;
+}
+
+.master:hover {
+    background-color: rgb(223, 102, 102);
+    width: 180px;
+    border-radius: 6px;
+    padding: 3px;
+    transform: scale(1.02);
+}
+
+p:first-child {
+    background-color: rgb(223, 102, 102);
+}
+
+input {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+
+input:focus {
+    background-color: rgb(223, 102, 102);
+}
+
+.intro::first-line {
+    background-color: rgb(223, 102, 102);
+}
+
+.intro2::first-letter {
+    color: red;
+}
+
+.smiley::before {
+    content: url(smiley.gif);
+}
+
+.smiley::after {
+    content: url(smiley.gif);
+}
